@@ -1,0 +1,7 @@
+CMakeLists.txt
+addictiveGame/CMakeLists.txt
+addictiveGame/main.cc
+trainingRover/CMakeLists.txt
+trainingRover/include/Car.h
+trainingRover/src/Car.cc
+trainingRover/src/Main.cc

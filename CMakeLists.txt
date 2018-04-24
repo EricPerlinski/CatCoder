@@ -1,5 +1,5 @@
 PROJECT(CatCoder CXX)
-cmake_minimum_required (VERSION 3.7.2)
+cmake_minimum_required (VERSION 2.6.0)
 
 SET ( CMAKE_CXX_FLAGS "-std=c++11")
 SET ( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
