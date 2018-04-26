@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 {
     cout << "[IN ] " << __func__ << endl;
 
-    if (argc == 4)
+    if (argc > 1)
     {
         try {
         }
