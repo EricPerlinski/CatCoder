@@ -6,6 +6,5 @@ SET ( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 SET ( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 SET ( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-
-add_subdirectory( trainingRover )
-add_subdirectory( addictiveGame )
+add_subdirectory( training )
+add_subdirectory( CCC2018 )

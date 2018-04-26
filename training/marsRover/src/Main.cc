@@ -7,16 +7,16 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    float wheelBase = 1.00f;
-    float distance = 1.00f;
-    float steeringAngle = 30.00f;
+    double wheelBase = 1.00f;
+    double distance = 1.00f;
+    double steeringAngle = 30.00f;
 
     if (argc == 4)
     {
         try {
-            wheelBase = stof(argv[1]);
-            distance = stof(argv[2]);
-            steeringAngle = stof(argv[3]);
+            wheelBase = stod(argv[1]);
+            distance = stod(argv[2]);
+            steeringAngle = stod(argv[3]);
         }
         catch (...)
         {
@@ -27,9 +27,9 @@ int main(int argc, char* argv[])
     }
 
     Car* myCar = new Car(wheelBase, distance, steeringAngle);
-    float x = 0.00f;
-    float y = 0.00f;
-    float newDirection = 0.00f;
+    double x = 0.00f;
+    double y = 0.00f;
+    double newDirection = 0.00f;
     myCar->CalculateDirection(x, y, newDirection);
     cout << "Calculated radius : " << std::to_string(myCar->CalculateTurnRadius()) << endl;
     cout << "Position x [" << x << "], y [" << y << "], newDirection [" << newDirection << "]" << endl;
