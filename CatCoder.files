@@ -6,6 +6,10 @@ training/marsRover/CMakeLists.txt
 training/marsRover/include/Car.h
 training/marsRover/src/Car.cc
 training/marsRover/src/Main.cc
+training/auctionBinding/CMakeLists.txt
+training/auctionBinding/include/Bid.h
+training/auctionBinding/src/Main.cc
+training/auctionBinding/src/Bid.cc
 CCC2018/CMakeLists.txt
 CCC2018/exercise1/CMakeLists.txt
 CCC2018/exercise1/include/*
